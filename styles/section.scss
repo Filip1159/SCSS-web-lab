@@ -3,7 +3,6 @@
 
 .section {
   @include setFlex(row);
-  background-color: $sectionBackgroundColor;
   margin: 10px 0;
   border: 6px solid $sectionBorderColor;
   border-radius: 15px;
@@ -65,4 +64,14 @@
       }
     }
   }
+}
+
+.section--even {
+  @extend .section;
+  background-color: $sectionEvenBackgroundColor;
+}
+
+.section--odd {
+  @extend .section;
+  background-color: $sectionOddBackgroundColor;
 }

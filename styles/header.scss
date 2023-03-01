@@ -3,7 +3,6 @@
 
 .header {
   @include setFlex(row, 1);
-  margin: 10px 0;
   border-width: 0 6px 6px 6px;
   border-style: solid;
   border-color: $sectionBorderColor;
