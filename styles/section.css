@@ -1,0 +1,66 @@
+.section {
+  display: flex;
+  flex-grow: 0;
+  flex-direction: row;
+  justify-content: normal;
+  align-items: normal;
+  background-color: #FFE6C1;
+  margin: 10px 0;
+  border: 6px solid #FFB001;
+  border-radius: 15px;
+  padding: 10px;
+}
+.section__movieImg {
+  background-color: #FFE69B;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 0 0 auto 0;
+}
+.section__movieImg__img {
+  border-radius: 10px;
+  width: 200px;
+  height: 300px;
+}
+.section__movieImg__caption {
+  color: #120373;
+  font-size: 10px;
+  font-style: italic;
+  text-align: center;
+}
+.section__description {
+  padding: 20px;
+}
+.section__description__title {
+  color: #120373;
+  letter-spacing: 2px;
+  font-size: 26px;
+  font-weight: bold;
+}
+.section__description__content {
+  line-height: 1.5;
+  font-size: 18px;
+}
+.section__description__link {
+  text-decoration: none;
+  background-color: white;
+  display: flex;
+  flex-grow: 0;
+  flex-direction: row;
+  justify-content: normal;
+  align-items: center;
+  margin: 15px 2px 2px 2px;
+  padding: 2px 15px;
+  border: 1px solid #FFB001;
+  border-radius: 4px;
+  transition: 0.2s;
+}
+.section__description__link:hover {
+  padding-left: 30px;
+}
+.section__description__link__img {
+  width: 30px;
+  height: 30px;
+  margin-right: 8px;
+}
+
+/*# sourceMappingURL=section.css.map */

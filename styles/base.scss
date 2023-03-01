@@ -1,4 +1,15 @@
-h1 {
-  color: red;
-  background: green;
+@import "variables";
+
+body {
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: $backgroundColor;
+}
+
+.container {
+  width: 1000px;
+  max-width: 1000px;
+  margin: 0 auto;
+  position: relative;
 }

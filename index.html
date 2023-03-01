@@ -3,20 +3,139 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Kącik kinomaniaka</title>
-	<link href="/styles/base.css" rel="stylesheet" />
+	<link href="/styles/base.css" rel="stylesheet"/>
+	<link href="/styles/header.css" rel="stylesheet"/>
+	<link href="/styles/footer.css" rel="stylesheet"/>
+	<link href="/styles/section.css" rel="stylesheet"/>
+
+	<link rel="icon" type="image/x-icon" href="/img/favicon.ico">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-      <img alt="Header logo" src="" />
-      <h1>Kącik kinomaniaka</h1>
-    </header>
-    <main>
-		<section>
-
+<div class="container">
+	<header class="header">
+		<img class="header__logo" alt="Header logo" src="/img/header_logo.jfif"/>
+		<h1 class="header__h1">Kącik kinomaniaka</h1>
+	</header>
+	<main>
+		<section class="section">
+			<figure class="section__movieImg">
+				<img class="section__movieImg__img" src="/img/leon.jpg" alt="Leon">
+				<figcaption class="section__movieImg__caption">Leon, 1994 rok</figcaption>
+			</figure>
+			<div class="section__description">
+				<h3 class="section__description__title">Leon zawodowiec</h3>
+				<div class="section__description__content">
+					Leon (Jean Reno) jest płatnym zabójcą. W niczym nie przypomina męskiego, twardego i nieposkromionego
+					złoczyńcy. Wręcz przeciwnie: jest cichy, spokojny, na co dzień pije mleko. Pewnego dnia skorumpowana
+					policja zabija swojego dostawcę narkotyków i jego rodzinę. Przeżyła tylko córka, która postanawia
+					zemścić się na zabójcach. To niezwykle trudne zlecenie otrzymuje Leon, u którego młoda dziewczyna
+					znajduje schronienie.
+				</div>
+				<a class="section__description__link" href="https://www.filmweb.pl/film/Leon+zawodowiec-1994-671">
+					<img class="section__description__link__img" src="/img/filmweb_logo.jfif" alt="Filmweb logo">
+					<span class="section__description__link__span">Zobacz na filmwebie</span>
+				</a>
+			</div>
 		</section>
-    </main>
-    <footer>
-		Wszelkie prawa zastrzeżone &copy; Filip Wiśniewski 2023
-    </footer>
+		<section class="section">
+			<figure class="section__movieImg">
+				<img class="section__movieImg__img" src="/img/pulp_fiction.jpg" alt="Pulp fiction">
+				<figcaption class="section__movieImg__caption">Pulp fiction, 1994 rok</figcaption>
+			</figure>
+			<div class="section__description">
+				<h3 class="section__description__title">Pulp fiction</h3>
+				<div class="section__description__content">
+					Płatni mordercy, Jules (Samuel L. Jackson) i Vincent (John Travolta), dostają zlecenie, by odzyskać
+					z rąk przypadkowych rabusiów tajemniczą walizkę bossa mafii. Nie dość tego, Vincent dostaje kolejną
+					robotę - na czas nieobecności gangstera w mieście ma zaopiekować się jego poszukującą wrażeń żoną
+					Mią (Uma Thurman). Vincent i Jules niespodziewanie wpadają po uszy, gdy przypadkowo zabijają
+					zakładnika. Kłopoty ma też podupadły bokser (Bruce Willis), który otrzymał dużą sumę za przegranie
+					swojej walki. Walkę jednak wygrywa, a Los Angeles staje się od tej chwili dla niego za małe.
+					Specjaliści od mokrej roboty będą mieli co robić...
+				</div>
+				<a class="section__description__link" href="https://www.filmweb.pl/film/Pulp+Fiction-1994-1039"
+				   target="_blank">
+					<img class="section__description__link__img" src="/img/filmweb_logo.jfif" alt="Filmweb logo">
+					<span class="section__description__link__span">Zobacz na filmwebie</span>
+				</a>
+				<a class="section__description__link" href="https://www.netflix.com/title/880640" target="_blank">
+					<img class="section__description__link__img" src="/img/netflix_logo.png" alt="Netflix logo">
+					<span class="section__description__link__span">Zobacz na netflixie</span>
+				</a>
+			</div>
+		</section>
+		<section class="section">
+			<figure class="section__movieImg">
+				<img class="section__movieImg__img" src="/img/buntownik_z_wyboru.jpg" alt="Buntownik z wyboru">
+				<figcaption class="section__movieImg__caption">Buntownik z wyboru, 1997 rok</figcaption>
+			</figure>
+			<div class="section__description">
+				<h3 class="section__description__title">Buntownik z wyboru</h3>
+				<div class="section__description__content">
+					Will jest mieszkającym w ubogiej dzielnicy nastolatkiem, który nie wie, co zrobić ze swoim życiem.
+					W dzień sprząta na uniwersytecie, wieczorami chodzi z kolegami po barach i wszczyna awantury.
+					Pewnego dnia rozwiązuje bardzo trudne zadanie matematyczne. Profesor matematyki przez przypadek
+					odkrywa jego talent. Postanawia zmienić jego życie i wykorzystać niesamowite umiejętności. Ale Will
+					nie wie, czy chce tego dokonać. Rozpoczyna się jego wewnętrzna walka.
+				</div>
+				<a class="section__description__link" href="https://www.filmweb.pl/film/Buntownik+z+wyboru-1997-21"
+				   target="_blank">
+					<img class="section__description__link__img" src="/img/filmweb_logo.jfif" alt="Filmweb logo">
+					<span class="section__description__link__span">Zobacz na filmwebie</span>
+				</a>
+				<a class="section__description__link" href="https://www.netflix.com/title/17405997" target="_blank">
+					<img class="section__description__link__img" src="/img/netflix_logo.png" alt="Netflix logo">
+					<span class="section__description__link__span">Zobacz na netflixie</span>
+				</a>
+			</div>
+		</section>
+		<section class="section">
+			<figure class="section__movieImg">
+				<img class="section__movieImg__img" src="/img/piekny_umysl.jpg" alt="Piękny umysł">
+				<figcaption class="section__movieImg__caption">Pięny umysł, 2001 rok</figcaption>
+			</figure>
+			<div class="section__description">
+				<h3 class="section__description__title">Piękny umysł</h3>
+				<div class="section__description__content">
+					Jest rok 1947. John Forbes Nash Jr. (Russell Crowe) właśnie przybył na Uniwersytet Princeton, aby
+					rozpocząć podyplomowe studia matematyczne. "Tajemniczy geniusz z Zachodniej Wirginii" nie może się
+					poszczycić elitarnym wykształceniem prywatnych szkół średnich ani też odpowiednim zapleczem
+					finansowym, które ułatwiłyby mu wejście w środowisko prestiżowych amerykańskich uniwersytetów -
+					Ivy League. Jedyne, co przemawia na jego korzyść, to wiedza i upór. Sytuacja nie jest prosta ani
+					dla Nasha, ani też "towarzystwa" z Princeton. Nash jest typem niepokornym, nic sobie nie robi z
+					wewnętrznych subtelnych praw, którymi rządzi się akademicki światek, jak również z obowiązku
+					regularnego uczęszczania na zajęcia. Obsesyjnie wręcz myśli tylko o jednym - znalezieniu naprawdę
+					oryginalnego pomysłu, który wszystkich powaliłby na kolana. Jak mniema, w ten sposób raz na zawsze
+					mógłby ustalić swoją pozycję i znaczenie w środowisku naukowym. Wydział matematyki na Uniwersytecie
+					Princeton rządzi się brutalnymi prawami konkurencji, zatem wielu studentów, widzących w Nashu realne
+					naukowe zagrożenie, z chęcią widziałoby go na pozycji straconej. Mimo to do pewnego stopnia tolerują
+					go i zupełnie nieświadomie popychają do sukcesu. To właśnie w ich towarzystwie, zabawiając pewnego
+					wieczoru w lokalnym pubie, zainspirowany reakcją kolegów i ich rywalizacją o względy ponętnej
+					blondynki, Nash doznaje swoistego "olśnienia". Myśl, która w niejasnej formie krążyła do tej pory
+					w jego głowie, nabiera realnych kształtów. W rezultacie powstaje praca na temat teorii gier - z
+					dziedziny matematyki konkurencji - która w odważny sposób obala twierdzenia doktryny Adama Smitha,
+					ojca współczesnej ekonomii. Ciesząca się uznaniem przez ponad sto pięćdziesiąt lat teoria Smitha z
+					dnia na dzień traci swoją rację bytu, a życie Nasha zmienia się raz na zawsze...
+				</div>
+				<a class="section__description__link" href="https://www.filmweb.pl/film/Buntownik+z+wyboru-1997-21"
+				   target="_blank">
+					<img class="section__description__link__img" src="/img/filmweb_logo.jfif" alt="Filmweb logo">
+					<span class="section__description__link__span">Zobacz na filmwebie</span>
+				</a>
+				<a class="section__description__link" href="https://www.netflix.com/title/17405997" target="_blank">
+					<img class="section__description__link__img" src="/img/netflix_logo.png" alt="Netflix logo">
+					<span class="section__description__link__span">Zobacz na netflixie</span>
+				</a>
+			</div>
+		</section>
+	</main>
+	<footer class="footer">
+		Wszelkie prawa zastrzeżone &copy; <span class="footer__author">Filip Wiśniewski</span> 2023
+	</footer>
+</div>
 </body>
 </html>

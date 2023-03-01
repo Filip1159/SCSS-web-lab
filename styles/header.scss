@@ -1,0 +1,20 @@
+@import 'mixins';
+@import "variables";
+
+.header {
+  @include setFlex(row, 1);
+  background-color: $headerBackgroundColor;
+  flex: 1;
+
+  &__logo {
+    width: 200px;
+    height: 200px;
+  }
+
+  &__h1 {
+    @include setFlex(row, 1);
+    font-size: 32px;
+    letter-spacing: 1px;
+    padding: 10px 30px;
+  }
+}

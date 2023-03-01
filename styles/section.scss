@@ -1,0 +1,68 @@
+@import "mixins";
+@import "variables";
+
+.section {
+  @include setFlex(row);
+  background-color: $sectionBackgroundColor;
+  margin: 10px 0;
+  border: 6px solid $sectionBorderColor;
+  border-radius: 15px;
+  padding: 10px;
+
+  &__movieImg {
+    background-color: $sectionImageBackgroundColor;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 0 0 auto 0;
+
+    &__img {
+      border-radius: 10px;
+      width: 200px;
+      height: 300px;
+    }
+
+    &__caption {
+      color: $figcaptionFontColor;
+      font-size: 10px;
+      font-style: italic;
+      text-align: center;
+    }
+  }
+
+  &__description {
+    padding: 20px;
+
+    &__title {
+      color: $sectionTitleColor;
+      letter-spacing: 2px;
+      font-size: 26px;
+      font-weight: bold;
+    }
+
+    &__content {
+      line-height: 1.5;
+      font-size: 18px;
+    }
+
+    &__link {
+      text-decoration: none;
+      background-color: white;
+      @include setFlex(row, 0, normal, center);
+      margin: 15px 2px 2px 2px;
+      padding: 2px 15px;
+      border: 1px solid $sectionBorderColor;
+      border-radius: 4px;
+      transition: .2s;
+
+      &:hover {
+        padding-left: 30px;
+      }
+
+      &__img {
+        width: 30px;
+        height: 30px;
+        margin-right: 8px;
+      }
+    }
+  }
+}

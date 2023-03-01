@@ -1,0 +1,25 @@
+.header {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: row;
+  justify-content: normal;
+  align-items: normal;
+  background-color: #FFDC63;
+  flex: 1;
+}
+.header__logo {
+  width: 200px;
+  height: 200px;
+}
+.header__h1 {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: row;
+  justify-content: normal;
+  align-items: normal;
+  font-size: 32px;
+  letter-spacing: 1px;
+  padding: 10px 30px;
+}
+
+/*# sourceMappingURL=header.css.map */
