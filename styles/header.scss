@@ -3,18 +3,27 @@
 
 .header {
   @include setFlex(row, 1);
+  margin: 10px 0;
+  border-width: 0 6px 6px 6px;
+  border-style: solid;
+  border-color: $sectionBorderColor;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
   background-color: $headerBackgroundColor;
   flex: 1;
 
   &__logo {
     width: 200px;
     height: 200px;
+    border-bottom-left-radius: 9px;
   }
 
   &__h1 {
     @include setFlex(row, 1);
-    font-size: 32px;
-    letter-spacing: 1px;
+    font-size: 36px;
+    letter-spacing: 2px;
     padding: 10px 30px;
+    text-align: center;
+    color: $headerTitleColor;
   }
 }

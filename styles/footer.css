@@ -1,6 +1,10 @@
 .footer {
-  background: lightblue;
-  margin-top: 30px;
+  background-color: #FFE6C1;
+  margin: 10px 0 0 0;
+  border: 3px solid #FFB001;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  padding: 6px 20px;
 }
 .footer__author {
   font-weight: bold;

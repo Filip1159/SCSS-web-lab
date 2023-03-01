@@ -4,12 +4,19 @@
   flex-direction: row;
   justify-content: normal;
   align-items: normal;
-  background-color: #FFDC63;
+  margin: 10px 0;
+  border-width: 0 6px 6px 6px;
+  border-style: solid;
+  border-color: #FFB001;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: #FFE69B;
   flex: 1;
 }
 .header__logo {
   width: 200px;
   height: 200px;
+  border-bottom-left-radius: 9px;
 }
 .header__h1 {
   display: flex;
@@ -17,9 +24,11 @@
   flex-direction: row;
   justify-content: normal;
   align-items: normal;
-  font-size: 32px;
-  letter-spacing: 1px;
+  font-size: 36px;
+  letter-spacing: 2px;
   padding: 10px 30px;
+  text-align: center;
+  color: #120373;
 }
 
 /*# sourceMappingURL=header.css.map */
